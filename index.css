@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.cv
+{
+    width: 90%;
+    height: 1200px;
+    background-color: rgb(249, 250, 250);
+    top: 20px;
+    margin:5% auto;
+    padding: 2px;
+}
+ .header-cv
+ {
+     width: 98%;
+     height: 20%;
+     margin: 2px auto 10px;
+ }
+
+ .header-left
+ {
+     width: 30%;
+     height: 100%;
+     padding: 10px;
+     border: 2px solid cornflowerblue;
+     float: left;
+     border-radius: 40%;
+     text-align: center;
+     font-size:10vw;
+ }
+
+ .header-right
+ {
+     width: 70%;
+     height: 80%;
+     padding: 40px 20px 40px 80px;
+     float: right;
+     margin-top: 1%;
+     border-radius: 40% 20% 20% 40%;
+     background-color: cornflowerblue ;
+     
+ }
+ .header-right h1
+ {
+     padding:1% 0%;
+ }
+ .aside-left
+ {
+     width: 30%;
+     height: 80%;
+     float: left;
+     border: 1px ;
+     margin-left: 1%;
+     padding-top: 30px;
+ }
+
+ aside section
+ {
+     padding: 10px;
+     margin: 5px;
+     width: 96%;
+
+
+ }
+ aside section h1
+ {
+    border-bottom: cornflowerblue 5px solid;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+ }
+ aside.content
+ {
+     width: 67%;
+     height: 80%;
+     float: right;
+     padding:30px 10px;
+ }
+ hr{
+     width: 70%;
+     margin: 10px auto;
+ }
+ button{
+     display: block;
+     margin: 40px auto;
+     background-color: lightseagreen;
+     padding: 10px;
+     border-radius: 30%;
+ }
+

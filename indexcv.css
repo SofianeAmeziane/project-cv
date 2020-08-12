@@ -1,0 +1,91 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container
+{
+    width: 80%;
+    min-width: 500px;
+    margin: 20px auto;
+}
+ .header
+ {
+     width: 100%;
+     padding: 10px;
+     display: flex;
+     align-items: center;
+ }
+ .signature
+ {
+     width: 30%;
+     height: 100%;
+     text-align: center;
+     display: table;
+}
+.signature h1
+{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 10vw;
+
+}
+ .information
+ {
+     padding: 50px;
+     width: 70%;
+     border-radius: 30%;
+     word-wrap: break-word;
+     align-items: center;
+     font-size: 2vw;
+
+ }
+
+ .information h1
+ {
+     font-size: 5vw;
+ }
+ .content
+ {
+     display: flex;
+     padding: 20px;
+ }
+ aside.left-aside
+ {
+     width: 30%;
+white-space: wrap; }
+ aside section
+ {
+     padding: 10px;
+     margin: 5px;
+     width: 96%;
+
+
+ }
+ aside.content-aside
+ {
+     width: 70%;
+ }
+ aside section h1
+ {
+    border-bottom: cornflowerblue 5px solid;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+ }
+ hr{
+    width: 70%;
+    margin: 10px auto;
+}
+button
+{
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: cadetblue;
+    border-radius: 40%;
+    cursor: pointer;
+    border: none;
+}
